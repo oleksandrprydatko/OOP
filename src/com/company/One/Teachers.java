@@ -20,7 +20,7 @@ public class Teachers {
 
 
     double metod(double i){
-        if (i<1){
+        if (i<=1){
             return i;
         }else {
             double x=metod(i-0.1)+i;

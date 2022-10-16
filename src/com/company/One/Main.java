@@ -1,7 +1,4 @@
 package com.company.One;
-
-
-
 //Ctrl + Alt + L # formating text
 public class Main {
     public static void main(String[] args) {
@@ -12,9 +9,10 @@ public class Main {
         Vector vector2 =new Vector(vector);
         Vector vector3 =new Vector();
         Vector vector4;
+        vector1.present();
 
         vector4=vector1.vectorAp(1.5,2);
-
+        vector1.present();
 
         Teachers teachers=new Teachers("Petro",40,70);
 
