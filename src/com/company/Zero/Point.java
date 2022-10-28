@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Zero;
 /*
 цей клас уособлює в собі точку з кординатами x,y,z
  */

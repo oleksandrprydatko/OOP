@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Zero;
 
 //Ctrl + Alt + L # formating text
 public class Main {

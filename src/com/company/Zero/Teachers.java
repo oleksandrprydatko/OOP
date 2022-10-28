@@ -1,4 +1,4 @@
-package com.company;
+package com.company.Zero;
 
 /*
 цей клас уособлює в собі вчителя/викладача з різними параметрами і вмінями
