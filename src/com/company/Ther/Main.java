@@ -28,9 +28,9 @@ public class Main {
         cord.present();
         System.out.println(cord.distanceFoPoint(cord1));
         System.out.println("pynaTohka");
-        System.out.println(cord.pyanaTohka(mathematics).getX());
-        System.out.println(cord.pyanaTohka(mathematics).getY());
-        System.out.println(cord.pyanaTohka(mathematics).getZ());
+//        System.out.println(cord.pyanaTohka(mathematics).getX());
+//        System.out.println(cord.pyanaTohka(mathematics).getY());
+//        System.out.println(cord.pyanaTohka(mathematics).getZ());
         System.out.println();
         cord.vectorAp(10);
         cord.cordAp(10);
