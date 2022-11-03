@@ -34,17 +34,17 @@ class Cord extends Vector {
     }
 
 
-    Cord pyanaTohka(Mathematics mathematics) {
-
-        Random random = new Random();
-        Cord cord = new Cord(getX(), getY());
-
-        cord.setX(getX() + (random.nextDouble() * 10 - 5) / mathematics.getLevelSkill());
-        cord.setY(getY() + (random.nextDouble() * 10 - 5) / mathematics.getLevelSkill());
-        cord.setZ(getZ() + (random.nextDouble() * 10 - 5) / mathematics.getLevelSkill());
-
-        return cord;
-    }
+//    Cord pyanaTohka(Mathematics mathematics) {
+//
+//        Random random = new Random();
+//        Cord cord = new Cord();
+//
+//        cord.setX(getX() + (random.nextDouble() * 10 - 5) / mathematics.getLevelSkill());
+//        cord.setY(getY() + (random.nextDouble() * 10 - 5) / mathematics.getLevelSkill());
+//        cord.setZ(getZ() + (random.nextDouble() * 10 - 5) / mathematics.getLevelSkill());
+//
+//        return cord;
+//    }
 
     void cordAp(double n) {
         super.vectorAp(n);
